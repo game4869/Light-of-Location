@@ -34,9 +34,9 @@
 ### โครงสร้างพื้นฐาน
 ![diagram picture][diagram]
 
-[diagram]:  "Diagram"
+[diagram]: https://github.com/game4869/Light-of-Location/blob/master/image/Diagram.png "Diagram"
 
 ### ระบบการทำงาน 
 ![flowchart picture][flowchart]
 
-[flowchart]: "flowchart"
+[flowchart]: https://github.com/game4869/Light-of-Location/blob/master/image/Flowchart.png "flowchart"
