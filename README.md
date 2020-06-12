@@ -32,3 +32,11 @@
 - 10K Potentiometer + LED
 
 ### โครงสร้างพื้นฐาน
+![diagram picture][diagram]
+
+[diagram]:  "Diagram"
+
+### ระบบการทำงาน 
+![flowchart picture][flowchart]
+
+[flowchart]: "flowchart"
