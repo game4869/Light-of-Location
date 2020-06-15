@@ -9,16 +9,16 @@ void setup()
 }
 void loop()
 {
-  if (Serial.available() > 0) { //เมื่อมีข้อมูลส่งมาทาง Serial ให้ทำ...
+  if (Serial.available() > 0) { //เมื่อมีข้อมูลส่งมาทาง Serial
     key = Serial.read(); //อ่านค่ามาไว้ในตัวแปร key
 
-    if (key == '0') { //ถ้าพิมพ์ค่า 0 ให้ทำ...
+    if (key == '0') { //ถ้าพิมพ์ค่า 0
       digitalWrite(led, 0); // สั่งปิดไฟ led
       Serial.println("LED OFF");
-    } else if (key == '1') { //ถ้าพิมพ์ 1 เข้ามา ให้ทำ...
+    } else if (key == '1') { //ถ้าพิมพ์ 1 เข้ามา
       digitalWrite(led, 1); // เปิดไฟ LED
       Serial.println("LED ON");
-    } else if (key == '2') { //ถ้าพิมพ์ 2 เข้ามา ให้ทำ...
+    } else if (key == '2') { //ถ้าพิมพ์ 2 เข้ามา
       Serial.println(" END ");
     }
   }

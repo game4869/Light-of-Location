@@ -2,9 +2,7 @@
 #include <LCD.h>
 #include <LiquidCrystal_I2C.h>
 
-#define I2C_ADDR 0x27 // กำหนดตำแหน่ง Address ของ I2C
-// #define I2C_ADDR 0x3F // ในบางกรณี Address ของ I2C เป็น 0x3f 
-//ให้เปลี่ยน 0x27 เป็น 0x3F
+#define I2C_ADDR 0x27
 
 #define BACKLIGHT_PIN 3
 
